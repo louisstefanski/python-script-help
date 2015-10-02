@@ -1,0 +1,13 @@
+#dictionary used to set possible attacks
+attacks = {'strongarm': 'an attack that does  damage','quick attack' : 'does 3 quick attacks dealing 2 damage each'}
+
+def attackoptions(): #will be used to call dictionary
+    print (attacks)
+    option = input("enter your command") #asks for command
+
+    if option == (strongarm):
+        print(attacks['strongarm']) #point of ocnflict with syntax
+    elif option == (quick attack):
+        print (attacks['quick attack'])
+
+attackoptions()
